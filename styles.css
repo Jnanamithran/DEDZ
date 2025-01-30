@@ -1,0 +1,97 @@
+body {
+background-color: black;
+}   
+
+.heading h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 90px;
+    font-family: "Pirata One", serif;
+    font-optical-sizing: auto;
+}
+
+nav {
+    position: fixed;
+    text-align: center;
+    transition: top 0.3s ease;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav ul li {
+    display: inline;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    padding-right: 30px;
+}
+nav ul li a:hover{
+    text-shadow: 0 0 20px #ffffff;
+}
+/* Scrollbar */
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 6px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 100px;
+  }
+ .about {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 50px;
+    color: white;
+ }
+ 
+.about h3 {
+    color: white;
+    font-size: 30px;
+    font-family: "Pirata One", serif;
+    font-optical-sizing: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.about p {
+    color: white;
+    font-size: 20px;
+    font-optical-sizing: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: "Pirata One", serif;
+    color: white;
+}
+.social a {
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.ending {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; /* Make the height of the ending area fill the viewport */
+    color: white;
+}
