@@ -11,6 +11,7 @@ background-color: black;
     font-size: 90px;
     font-family: "Pirata One", serif;
     font-optical-sizing: auto;
+    text-shadow: 0 0 20px #ffffff;
 }
 
 nav {
